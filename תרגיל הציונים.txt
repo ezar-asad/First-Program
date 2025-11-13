@@ -1,0 +1,30 @@
+def main():
+    grade = int(input("Enter a Grade : "))
+    if grade >= 90 and grade <= 100:
+        gg = "Exellent"
+        print("Your grade is : A")
+        print(gg)
+        
+    if grade >= 80 and grade <= 89:
+        gg = "Very good"
+        print("Your grade is : B")
+        print(gg)
+        
+    if grade >= 70 and grade <= 79:
+        gg = "Improvment needing"
+        print("Your grade is : C")
+        print(gg)
+        
+    if grade >= 60 and grade <= 69:
+        gg = "Close fail"
+        print("Your grade is : D")
+        print(gg)
+        
+    if grade >= 0 and grade <= 59:
+        gg = "Fail"
+        print("Your grade is : F")
+        print(gg)
+        
+    
+main()
+
